@@ -75,7 +75,7 @@ export const Navbar: React.FC = () => {
         </NavbarItem>
         <NavbarItem>
           <Button variant="ghost" onPress={handleAccountClick}>
-            Personal Account
+            Личный аккаунт
           </Button>
         </NavbarItem>
         <NavbarItem>
@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
         </NavbarItem>
         <NavbarItem>
           <Button variant="ghost" onPress={() => navigate('/about')}>
-            About
+            О сайте
           </Button>
         </NavbarItem>
       </NavbarContent>
@@ -127,7 +127,7 @@ export const Navbar: React.FC = () => {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Button variant="ghost" onPress={() => navigate('/about')}>
-            About
+          О сайте
           </Button>
         </NavbarMenuItem>
         <NavbarMenuItem>
